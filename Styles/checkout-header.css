@@ -1,0 +1,47 @@
+.checkout-header{
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white; 
+}
+
+.chekout-left-side{
+  width: 150px;
+}
+
+.black-logo-image{
+  width: 100px;
+  margin-left: 26px;
+  padding-top: -1px;
+  transition: border 0.15s;
+  cursor: pointer;
+}
+
+
+.checkout-middle-side{
+  margin-right: 100px;
+}
+
+.checkout{
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.checkout-inner-text{
+  color: rgb(0, 113, 133);
+  cursor: pointer;
+}
+
+.checkout-right-side{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 100px;
+}

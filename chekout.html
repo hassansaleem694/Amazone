@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Checkout</title>
+  <link rel="stylesheet" href="Styles/checkout-header.css">
+  <link rel="stylesheet" href="Styles/checkout-main-products.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+  <div class="checkout-header">
+    <div class="chekout-left-side">
+      <a href="amazone.html">
+        <img style="margin-left: 72px; margin-top: 10px;" class="black-logo-image" src="Pics/Logos/amazon-logo.png" alt="">
+     </a>
+    </div>
+
+    <div class="checkout-middle-side">
+      <div>
+        <p class = "checkout">Checkout &#40;<span class="checkout-inner-text"></span>&#41;</p>
+      </div>
+    </div>
+    
+    <div class="checkout-right-side">
+     <img src="Pics/Icons/checkout-lock-icon.png" alt="">
+    </div>
+  </div>
+
+  <div class="page-tilte">
+    Review your order
+  </div>
+
+  <div class="checkout-products-container">
+
+    <div class = "all-products-container">
+    </div>
+
+    <div class="order-summary">
+      <p class="summary">Order Summary</p>
+      <div class="total-order-price">
+        <div class="name-price">
+          <p class="item-numbers">Items (<span class="order-summary-items">22</span>):</p>
+          <p class="item-price">$</p>
+        </div>
+        <div class="name-price" style="margin-bottom: 10px; border-bottom-width: 1px; border-bottom-color: rgb(222, 222, 222);">
+          <p class="item-numbers">Shipping & handling:</p>
+          <p class="shipping-and-handling">$0.00</p>
+        </div>
+        <div class="name-price">
+          <p class="item-numbers">Total before tax:</p>
+          <p class="item-tax-price"></p>
+        </div>
+        <div class="name-price">
+          <p class="item-numbers">Estimated tax (10%):</p>
+          <p class="estimate-tax-item-price"></p>
+        </div>
+      </div>
+      <div class="sum-of-price">
+        <p class="item-numbers">Total with tax:</p>
+        <p class="items-total-price"></p>
+      </div>
+      <div class="payment-option">
+        <p class="paypal">Using paypal</p>
+        <input class="checkBox" type="checkbox" name="checkBox1">
+      </div>
+      <div class="order-button">
+        <a href="Order.html">
+          <button class="place-order">Place Your Order</button>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+
+  <script src="Styles/JS/amazone.js"></script>
+  <Script src="Styles/JS/cart.js"></Script>
+  <script src="Styles/JS/deleiveryOptions.js"></script>
+  <script type="module" src="Styles/JS/Orders.js"></script>
+  <script type="module" src="Styles/JS/checkout.js"></script>
+
+</body>
+</html>

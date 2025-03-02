@@ -1,0 +1,141 @@
+body{
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  margin-top: 60px;
+}
+
+.main-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  background-color: lightgray;
+  row-gap: 1px;
+  margin-top: 60px;
+}
+
+.Product-block{
+  background-color: rgb(255, 255, 255);
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 202px;
+}
+
+.product-image
+{
+  width: 200px;
+  object-fit: contain;
+  color: rgb(33, 33, 33);
+  height: 180px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.product-name{
+  width: 210px;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+  margin-bottom: 5px;
+  word-wrap: break-word;
+  color: rgb(33, 33, 33);
+  height: 40px;
+}
+
+.product-Discription{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.rating-details{
+  display: grid;
+  grid-template-columns: 1fr 110px;
+  align-content: center;
+  margin-top: -12px;
+}
+
+.rating-div{
+  align-self: center;
+  justify-self: center;
+  margin-top: 5px;
+}
+
+.rating-stars{
+  width: 100px;
+  
+}
+
+.rating-number{
+  color: rgb(1, 124, 182);
+  margin-left: 10px;
+}
+
+
+.product-price{
+  margin: 0;
+  margin-left: 5px;
+  margin-top: -5px;
+  font-weight: bold;
+  color: rgb(33, 33, 33);
+
+}
+
+
+.quantity-list-box{
+  margin-top: 7px;
+  padding: 4px;
+  background-color: rgb(240, 240, 240);
+  border-radius: 6px;
+  border-style: solid;
+  border-color: rgb(213, 217, 217);
+  box-shadow: 0px 2px 5px 0px rgba(213, 217, 217, 0.5) ;
+  margin-bottom: 15px;
+}
+
+.success-div{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+.added-to-cart{
+  margin: 0;
+  margin-left: 10px;
+  color: rgb(6, 125, 98);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.success{
+  width: 17px;
+  margin-left: 10px;
+}
+
+.cart-buton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-to-cart-button{
+  background-color: rgb(252, 210, 0);
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  width: 202px;
+  border-radius: 100px;
+  margin-bottom: 5px;
+  margin-bottom: 5px;
+}
+

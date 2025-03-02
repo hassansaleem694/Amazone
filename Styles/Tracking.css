@@ -1,0 +1,92 @@
+body{
+  font-family: Roboto, Arial;
+  margin-top: 90px;
+}
+
+p{
+  margin: 0;
+}
+
+.view-all-products{
+  margin-left: 200px;
+  color: rgb(1, 124, 182);
+  transition: color 0.15s;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.view-all-products:hover{
+  color: rgb(254, 189, 105);
+}
+
+.Order-Detail{
+  margin-left: 200px;
+  margin-top: 30px;
+}
+
+.Arriving-date{
+  font-size: 25px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.Product-name{
+  padding-bottom: 2px;
+}
+
+.Quantity{
+  margin-bottom: 5px;
+}
+
+
+.product-image{
+  width: 150px;
+  object-fit: contain;
+  height: 150px;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 23px;
+}
+
+.Progress{
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.progress-detail{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.progress-paragrpah{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#product{
+  width: 860px;
+  height: 25px;
+  margin-top: 20px;
+  background-color: green;
+  border-radius: 50px;
+}
+
+#product::-webkit-progress-bar{
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-color: rgb(222, 222, 222);
+  border-width: 0.66667px;
+  border-radius: 50px;
+}
+
+#product::-webkit-progress-value{
+  background-color: green;
+  border-style: solid;
+  border-color: rgb(222, 222, 222);
+  border-width: 0.66667px;
+  border-radius: 50px;
+}

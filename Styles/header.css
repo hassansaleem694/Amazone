@@ -1,0 +1,164 @@
+body{
+  font-family: Roboto, Arial;
+}
+
+.header{
+  background-color: rgb(19, 25, 33);
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-side{
+  width: 150px;
+}
+
+.logo-image{
+  width: 100px;
+  margin-left: 26px;
+  padding-top: -1px;
+  transition: border 0.15s;
+  cursor: pointer;
+}
+
+.logo-image:hover{
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  margin-left: 20px;
+  padding-top: 10px;
+}
+
+.middle-side{
+   display: flex;
+   align-items: center;
+}
+
+.search-bar{
+  width: 800px;
+  padding-left: 15px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  font-family: Roboto, Arial;
+  cursor: text;
+  font-size: 15px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-style: none;
+  margin-left: 25px;
+}
+
+.icon{
+  background-color: rgb(254, 189, 105);
+  border: none;
+  width: 47px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  cursor: pointer;
+}
+
+.search-icon{
+  width: 23px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+.right-side{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.return-order{
+  color: white;
+  font-size: 13px;
+  margin: 0;
+  padding-top: 7px;
+  padding-left: 2px;
+  padding-right: 2px;
+  cursor: pointer;
+
+}
+
+.return-order-inner-text{
+  font-weight: bold;
+  font-size: 15px;
+  display: block;
+  padding-bottom: 7px;
+  padding-left: 1px;
+  padding-right: 3px;
+  margin: 0;
+}
+
+.return--order{
+  transition: border 0.15s;
+
+}
+
+.return--order:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-left: 0px;
+  margin-right: -3px;
+}
+
+.cart{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.logo-div{
+  width: 50px;
+  margin-left: 10px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.cart-quantity{
+  color: rgb(240, 136, 4);
+  position: absolute;
+  top: -2px;
+  left: 25px;
+  font-weight: bold;
+}
+
+.cart-log{
+  width: 50px;
+}
+
+.cart-text{
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.p-of-cart{
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: -2px;
+  margin-top: 20px;
+  cursor: pointer;
+
+}
+
